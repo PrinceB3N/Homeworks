@@ -4,8 +4,8 @@
 import java.util.*;
 public class H4P1
 {
-    // Nums in odd rows are incremented by 1 and start at 1
-    // Nums in even rows are incremented by 2 and start at 2
+    // Nums in odd rows are incremented by 2 and start at 2
+    // Nums in even rows are incremented by 1 and start at 1
     // Nums in odd columns are then squared
 	public static void main(String[] args) {
 	    final int ODD_ROW_START = 2;
@@ -24,7 +24,7 @@ public class H4P1
 	    
 		for(int row=0;row<rows;row++){
 		    for(int col=0;col<columns;col++){
-		        //Nums in even rows are incremented by 2 and start at 2
+		        //Nums in even rows are incremented by 1 and start at 1
 		        if(row%2==0){
 		            increment = EVEN_ROW_ADD;
 		            countNum = EVEN_ROW_START;
@@ -32,7 +32,7 @@ public class H4P1
 		                countNum+=increment;
 		            }
 		        }
-		        // Nums in odd rows are incremented by 1 and start at 1
+		        // Nums in odd rows are incremented by 2 and start at 2
 		        else{
 		            increment = ODD_ROW_ADD;
 		            countNum = ODD_ROW_START;
