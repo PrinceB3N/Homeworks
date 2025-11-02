@@ -2,7 +2,7 @@
 // @Author (Sabrina Hong)
 // @Date (11/2/25)
 import java.util.*;
-public class Main
+public class H4P1
 {
     // Nums in odd rows are incremented by 1 and start at 1
     // Nums in even rows are incremented by 2 and start at 2
